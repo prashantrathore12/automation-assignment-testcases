@@ -1,22 +1,17 @@
-
-
+** 
 $ testcafe chrome succLogintest.js
  Running tests in:
  - Chrome 115.0.0.0 / Windows 10
 
  Login Test
  √ Successful Login with Valid Credentials
-
-
  1 passed (1m 23s)
 
 $ testcafe firefox succLogintest.js
  Running tests in:
  - Firefox 117.0 / Windows 10
-
  Login Test
  √ Successful Login with Valid Credentials
-
 
  1 passed (1m 16s)
 
@@ -25,11 +20,9 @@ $ testcafe firefox succLogintest.js
 $ testcafe chrome invalidTest.js 
  Running tests in:
  - Chrome 115.0.0.0 / Windows 10
-
  Login Tests                                                             {
  √ Invalid Login Attempts: Short Password)
  √ Invalid Login Attempts: No Username/Password
-
 
  2 passed (11s)
 
@@ -40,7 +33,6 @@ $ testcafe firefox invalidTest.js
  Login Tests
  √ Invalid Login Attempts: Short Password)
  √ Invalid Login Attempts: No Username/Password
-
 
  2 passed (23s)
 $ 
@@ -54,7 +46,6 @@ $ testcafe firefox unsuccLoginTest.js
  Unsuccessful Login Tests    
  √ Invalid Credentials: Wrong Email and Password
 
-
  1 passed (11s)
 
 $ testcafe chrome unsuccLoginTest.js                                    
@@ -63,7 +54,6 @@ $ testcafe chrome unsuccLoginTest.js
 
  Unsuccessful Login Tests       
  √ Invalid Credentials: Wrong Email and Password
-
 
  1 passed (11s)
 
@@ -76,7 +66,6 @@ $ testcafe chrome unsuccLoginTest.js
  Login Test
  √ Successful Login with Valid Credentials
 
-
  1 passed (16s)
 
  $ testcafe firefox successDashboard.js 
@@ -86,11 +75,4 @@ $ testcafe chrome unsuccLoginTest.js
  Login Test
  √ Successful Login with Valid Credentials
 
-
  1 passed (19s)
-
-
-
-
-
-
