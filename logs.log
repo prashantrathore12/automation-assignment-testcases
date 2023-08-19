@@ -1,4 +1,4 @@
-** 
+** Test successful login with valid credentials **
 $ testcafe chrome succLogintest.js
  Running tests in:
  - Chrome 115.0.0.0 / Windows 10
@@ -16,7 +16,7 @@ $ testcafe firefox succLogintest.js
  1 passed (1m 16s)
 
 #####################################################################################
-
+** Validate that appropriate error messages are displayed for invalid login attempts **
 $ testcafe chrome invalidTest.js 
  Running tests in:
  - Chrome 115.0.0.0 / Windows 10
@@ -38,7 +38,7 @@ $ testcafe firefox invalidTest.js
 $ 
 
 #####################################################################################
-
+** Test unsuccessful login attempts with invalid credentials **
 $ testcafe firefox unsuccLoginTest.js 
  Running tests in:
  - Firefox 117.0 / Windows 10
@@ -58,7 +58,7 @@ $ testcafe chrome unsuccLoginTest.js
  1 passed (11s)
 
  #####################################################################################
-
+** On successful login, validate that the user is redirected to the dashboard page. **
  $ testcafe chrome successDashboard.js 
  Running tests in:
  - Chrome 115.0.0.0 / Windows 10
